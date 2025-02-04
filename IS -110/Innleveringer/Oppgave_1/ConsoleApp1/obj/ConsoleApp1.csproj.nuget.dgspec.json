@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siver\\OneDrive - Universitetet i Agder\\UIA\\BACIT\\Semester 2\\IS - 110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\siver\\Repository Github\\IS-110\\IS -110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siver\\OneDrive - Universitetet i Agder\\UIA\\BACIT\\Semester 2\\IS - 110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\siver\\Repository Github\\IS-110\\IS -110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siver\\OneDrive - Universitetet i Agder\\UIA\\BACIT\\Semester 2\\IS - 110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\siver\\Repository Github\\IS-110\\IS -110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\siver\\OneDrive - Universitetet i Agder\\UIA\\BACIT\\Semester 2\\IS - 110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\siver\\Repository Github\\IS-110\\IS -110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\siver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siver\\OneDrive - Universitetet i Agder\\UIA\\BACIT\\Semester 2\\IS - 110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\siver\\Repository Github\\IS-110\\IS -110\\Innleveringer\\Oppgave_1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\siver\\AppData\\Roaming\\NuGet\\NuGet.Config"

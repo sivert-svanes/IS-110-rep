@@ -2,45 +2,39 @@
 using System;
 using System.Security.Cryptography;
 
-namespace ConsoleApp1
+Handlekurv handlekurv = new Handlekurv();
+for (int i = 1; i < 100; i++)
 {
-    class Program
-{
-    static void Main()
-    {
-        Handlekurv handlekurv = new Handlekurv();
-        for (int i = 1; i < 100; i++)
+    Console.WriteLine("Legg til prisen på varen du ønsker å kjøpe: ");
+    double pris = Convert.ToDouble(Console.ReadLine());
+    handlekurv.LeggTilVare(pris);
+    while (true)
+     {
+    Console.WriteLine("Ønsker du å kjøpe flere varer: Ja / Nei ");
+    string svar = Console.ReadLine().ToLower();
+        if (svar == "ja")
         {
-            Console.WriteLine("Legg til prisen på varen du ønsker å kjøpe: ");
-            double pris = Convert.ToDouble(Console.ReadLine());
-            handlekurv.LeggTilVare(pris);
-            Console.WriteLine("Ønsker du å kjøpe flere varer: Ja / Nei ");
-            string svar = Console.ReadLine().ToLower();
-            if (svar == "ja")
+            continue;
+        }
+        else if (svar == "nei")
+        {
+            if (handlekurv.BeregnTotal() > 500)
             {
-                continue;
-            }
-            else if (svar == "nei")
-            {
-                if (handlekurv.BeregnTotal() > 500)
-                {
-                    Console.WriteLine("Du har fått gratis frakt!");
-                    handlekurv.SkrivKvittering();
-                }
-                else
-                {
-                  handlekurv.SkrivKvittering();
-                }
-                break;
+                Console.WriteLine("Du har fått gratis frakt!");
+                handlekurv.SkrivKvittering();
             }
             else
             {
-              Console.WriteLine("Du har skrevet feil input");
-                return;
+                handlekurv.SkrivKvittering();
             }
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Du har skrevet feil input");
+            continue;
         }
     }
-}
 }
 
 /*
