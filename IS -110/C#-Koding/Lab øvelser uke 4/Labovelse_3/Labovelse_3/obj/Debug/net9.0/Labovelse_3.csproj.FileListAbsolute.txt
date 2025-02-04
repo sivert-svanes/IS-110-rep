@@ -1,0 +1,14 @@
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.AssemblyInfoInputs.cache
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.AssemblyInfo.cs
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.csproj.CoreCompileInputs.cache
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\bin\Debug\net9.0\Labovelse_3.exe
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\bin\Debug\net9.0\Labovelse_3.deps.json
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\bin\Debug\net9.0\Labovelse_3.runtimeconfig.json
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\bin\Debug\net9.0\Labovelse_3.dll
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\bin\Debug\net9.0\Labovelse_3.pdb
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.dll
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\refint\Labovelse_3.dll
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.pdb
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\Labovelse_3.genruntimeconfig.cache
+C:\Users\siver\OneDrive - Universitetet i Agder\UIA\BACIT\Semester 2\IS - 110\C# koding\Lab øvelser uke 4\Labovelse_3\Labovelse_3\obj\Debug\net9.0\ref\Labovelse_3.dll
