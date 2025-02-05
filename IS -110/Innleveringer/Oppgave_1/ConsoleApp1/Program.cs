@@ -1,41 +1,56 @@
 ﻿using Oppgave_1;
-using System;
 using System.Security.Cryptography;
+using System;
 
-Handlekurv handlekurv = new Handlekurv();
-for (int i = 1; i < 100; i++)
+class Program
 {
-    Console.WriteLine("Legg til prisen på varen du ønsker å kjøpe: ");
-    double pris = Convert.ToDouble(Console.ReadLine());
-    handlekurv.LeggTilVare(pris);
-    while (true)
-     {
-    Console.WriteLine("Ønsker du å kjøpe flere varer: Ja / Nei ");
-    string svar = Console.ReadLine().ToLower();
-        if (svar == "ja")
+    static void Main()
+    {
+        Handlekurv handlekurv = new Handlekurv();
+        for (int i = 1; i < 100; i++)
         {
-            continue;
-        }
-        else if (svar == "nei")
-        {
-            if (handlekurv.BeregnTotal() > 500)
+            try
             {
-                Console.WriteLine("Du har fått gratis frakt!");
-                handlekurv.SkrivKvittering();
-            }
-            else
+            Console.WriteLine($"Legg til prisen på vare {i} du ønsker å kjøpe: ");
+            double pris = Convert.ToDouble(Console.ReadLine());
+            handlekurv.LeggTilVare(pris);
+            while (true)
             {
-                handlekurv.SkrivKvittering();
+                Console.WriteLine("Ønsker du å kjøpe flere varer: Ja / Nei ");
+                string svar = Console.ReadLine().ToLower();
+                if (svar == "ja")
+                {
+                    // Gå tilbake til linje 12
+                    break;
+                }
+                else if (svar == "nei")
+                {
+                    if (handlekurv.BeregnTotal() > 500)
+                    {
+                        Console.WriteLine("Du har fått gratis frakt!");
+                        handlekurv.SkrivKvittering();
+                    }
+                    else
+                    {
+                        handlekurv.SkrivKvittering();
+                    }
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Du har skrevet feil input");
+                    continue;
+                }
+            }   }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                i--;
             }
-            break;
-        }
-        else
-        {
-            Console.WriteLine("Du har skrevet feil input");
-            continue;
         }
     }
 }
+
 
 /*
 Du skal du opprette et objekt av Handlekurv.

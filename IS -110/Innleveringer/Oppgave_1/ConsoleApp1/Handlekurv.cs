@@ -24,9 +24,11 @@ namespace Oppgave_1
     public void SkrivKvittering()
     {
       Console.WriteLine("Kvittering:");
+      int i = 0;
       foreach (double pris in varepriser)
       {
-        Console.WriteLine(pris);
+        Console.WriteLine($"vare {i + 1}: {pris}");
+        i++;
       }
       Console.WriteLine($"Totalpris: {totalpris}");
     }
