@@ -1,0 +1,15 @@
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.AssemblyInfoInputs.cache
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.AssemblyInfo.cs
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.csproj.CoreCompileInputs.cache
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.sourcelink.json
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\bin\Debug\net9.0\Oppgave_2.exe
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\bin\Debug\net9.0\Oppgave_2.deps.json
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\bin\Debug\net9.0\Oppgave_2.runtimeconfig.json
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\bin\Debug\net9.0\Oppgave_2.dll
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\bin\Debug\net9.0\Oppgave_2.pdb
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.dll
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\refint\Oppgave_2.dll
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.pdb
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\Oppgave_2.genruntimeconfig.cache
+C:\Users\siver\RiderProjects\IS-110-rep\IS -110\Innleveringer\Oppgave_2\obj\Debug\net9.0\ref\Oppgave_2.dll
