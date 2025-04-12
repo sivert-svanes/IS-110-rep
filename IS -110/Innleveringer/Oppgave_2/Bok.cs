@@ -1,18 +1,13 @@
 ﻿namespace Oppgave_2;
 
-public class Bok
+public abstract class Bok
 {
-    public string ISBN { get; set; }
-    public List<string> Forfatter { get; set; }
-    public string Tittel { get; set; }
-
-    public string? Utgivelsesår { get; set; }
-    
-    // public abstract void VisInfo();
-
-    
-
-    public Bok()
+    protected string ISBN { get; set; }
+    protected internal List<string> Forfatter { get; set; }
+    protected internal string Tittel { get; set; }
+    protected internal int Utgivelsesår { get; set; }
+    protected bool LevertInn { get; set; } = true;
+    protected Bok()
     {
         //Legger til tittel til boken
         Console.WriteLine("Please write the title of the book you would like to add.");
@@ -21,8 +16,10 @@ public class Bok
         {
             throw new Exception("The book you would like to add must have a Title");
         }
-        Tittel = tittel;
-        
+        else
+        {
+            Tittel = tittel;
+        }
         
         //Legger til ISBN til boken
         Random random = new Random();
@@ -41,13 +38,15 @@ public class Bok
         string utgivelsesår = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(utgivelsesår))
         {
-            throw new Exception("The book you would like to add must have a Title");
+            throw new Exception("The book you would like to add must have a release year");
         }
-
-        Utgivelsesår = utgivelsesår;
+        else
+        {
+            Utgivelsesår = Convert.ToInt32(utgivelsesår);
+        }
     }
 
-    private static List<string> InputForfatter()
+    private List<string> InputForfatter()
     {
         List<string> forfatterList = new List<string>();  // Create a new list to store the forfatters
         string userInput;
@@ -66,26 +65,16 @@ public class Bok
             
             if (string.IsNullOrWhiteSpace(userInput))
             {
-                throw new Exception("Å skriv ingenting er ikke lov");
+                throw new Exception("Forfatteren du ønsker å legge til må ha et navn");
             }
             
             forfatterList.Add(userInput);  // Add the input to the list
-            Console.WriteLine("Skriv inn navnet på forfatteren (Skriv inn NEI for å stopper):");
+            Console.WriteLine("Skriv inn navnet på forfatteren/e (Skriv ¨N¨ for å stoppe):");
         }
 
         return forfatterList;  // Return the list of strings
     }
 
-    public void VisInfoBok()
-    {
-        Console.WriteLine($"The title of the book is {Tittel}");
-        Console.WriteLine($"The ISBN is {ISBN}");
-        Console.WriteLine($"The Utgivelsesår is {Utgivelsesår}");
-    }
-    public override string ToString()
-    {
-        return "A new book has been added.";
-    }
-    
+    public abstract void VisInfoBok();
 }
 
